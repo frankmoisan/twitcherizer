@@ -1,0 +1,87 @@
+body {
+  overflow-x: hidden;
+}
+.fa-exclamation-circle {
+  color: red;
+}
+.fa-check-circle {
+  color: green;
+}
+.fa-spinner {
+  color: #1E90FF;
+}
+.fa {
+  position: relative;
+  top: 15px;
+  right: 5px;
+}
+.stream-subtext {
+  position: relative;
+  top: -10px;
+  left: 11px;
+  color: #999;
+}
+.streamer {
+  min-height: 60px;
+  max-height: 60px;
+}
+.streamer:hover {
+  background-color: gold;
+}
+.stream-name {
+  position: relative;
+  top: 0px;
+  left: 10px;
+  color: black;
+}
+.stream-logo-container {
+  padding-left: 5px;
+  padding-right: 0;
+  margin-top: 5px;
+}
+.stream-logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50px;
+}
+.stream-list {
+  border: 1px black solid;
+  max-width: 500px;
+  background-color: white;;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+.button-container {
+  padding: 20px 0px 20px 0px;
+}
+.select-buttons {
+  width: 75px;
+}
+body {
+  background-color: #6441A5;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* inline-block space fix */
+  margin-right:-20px;
+  margin-left: -20px;
+}
+.row-centered {
+    text-align:center;
+}
+.about {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  color: white;
+}
+.links {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
